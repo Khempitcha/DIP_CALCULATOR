@@ -14,4 +14,4 @@
 2. debugging error
 
 ## Disclaimer
-for educational purpose only. Run on your qwn risk.
+for educational purpose only. Run on your own risk.
