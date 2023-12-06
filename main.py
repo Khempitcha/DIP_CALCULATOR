@@ -40,7 +40,6 @@ tk.Button(root, text="Clear", bg="tomato", width=3, command=clear).grid(row=1, c
 
 tk.Button(root, text=".", bg="powderblue", width=4, command=lambda: press(".")).grid(row=5, column=0, sticky="NEWS", padx=(20, 0))
 tk.Button(root, text="0", bg="powderblue", width=4, command=lambda: press("0")).grid(row=5, column=1, sticky="NEWS")
-tk.Button(root, text="/", bg="powderblue", width=4, command=lambda: press("00")).grid(row=5, column=2, sticky="NEWS")
 tk.Button(root, text="1", bg="powderblue", width=4, command=lambda: press("1")).grid(row=4, column=0, sticky="NEWS", padx=(20, 0))
 tk.Button(root, text="2", bg="powderblue", width=4, command=lambda: press("2")).grid(row=4, column=1, sticky="NEWS")
 tk.Button(root, text="3", bg="powderblue", width=4, command=lambda: press("3")).grid(row=4, column=2, sticky="NEWS")
@@ -55,6 +54,7 @@ tk.Button(root, text="+", bg="gold", width=4, command=lambda: press("+")).grid(r
 tk.Button(root, text="-", bg="gold", width=4, command=lambda: press("-")).grid(row=3, column=3, sticky="NEWS", padx=(0, 20))
 tk.Button(root, text="x", bg="gold", width=4, command=lambda: press("x")).grid(row=4, column=3, sticky="NEWS", padx=(0, 20))
 tk.Button(root, text="%", bg="gold", width=4, command=lambda: press("%")).grid(row=5, column=3, sticky="NEWS", padx=(0, 20))
+tk.Button(root, text="/", bg="gold", width=4, command=lambda: press("00")).grid(row=5, column=2, sticky="NEWS")
 tk.Button(root, text="=", bg="lawngreen", width=3, command=equal).grid(row=6, columnspan=4, sticky="NEWS", padx=(20, 20), pady=(0, 20))
 
 root.mainloop()
